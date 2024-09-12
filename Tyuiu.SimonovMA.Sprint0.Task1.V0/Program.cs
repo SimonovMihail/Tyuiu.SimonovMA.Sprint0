@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Tyuiu.SimonovMA.Sprint0.Task1.V0
 {
@@ -9,7 +13,8 @@ namespace Tyuiu.SimonovMA.Sprint0.Task1.V0
             Console.WriteLine("Hello, World!");
             string name = "Михаил";
             int age = 18;
-            Console.WriteLine("Здравствуйте меня зовут " + name + ", мне " + age + " лет!");
+            Console.WriteLine("Здравствуйте меня зовут " + name + " мне " + age + " лет.");
+            Console.ReadKey();
         }
     }
 }
